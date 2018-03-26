@@ -23,8 +23,6 @@ def get_hsv(_x,_y):
 	h=map((math.atan2((_y),(_x)))%(2*math.pi)-math.pi+rota,[-r,r],[0,360])
 	return 255,h
 
-xoff = 0
-yoff = 0
 scale = 10
 backgroundSize = [1800,900]
 
