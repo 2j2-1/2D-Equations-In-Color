@@ -47,7 +47,7 @@ for x in xrange(backgroundSize[0]/2):
 		v,h = get_hsv(temp[0],temp[1])
 		screen.set_at((x+MID[0],y),colorsys.hsv_to_rgb(h,1,v))
 
-print "Done!"
+print("Done!")
 finished = screen.copy()
 
 done = True
